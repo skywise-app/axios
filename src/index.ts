@@ -24,8 +24,8 @@ const customAxios: CustomAxios = {
         return defaultAxios.get(url, config);
     },
 
-    post(url, data, config) {
-        return defaultAxios.post(url, data, config);
+    post(url, payload, config) {
+        return defaultAxios.post(url, payload, config);
     },
 };
 
