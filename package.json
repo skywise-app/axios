@@ -1,5 +1,5 @@
 {
-    "name": "axios",
+    "name": "@skywise-inc/axios",
     "version": "0.0.3",
     "description": "axios wrapper",
     "main": "dist/index.js",
@@ -33,5 +33,8 @@
     "bugs": {
         "url": "https://github.com/skywise-app/axios/issues"
     },
-    "homepage": "https://github.com/skywise-app/axios#readme"
+    "homepage": "https://github.com/skywise-app/axios#readme",
+    "directories": {
+        "test": "tests"
+    }
 }
