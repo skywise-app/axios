@@ -1,3 +1,3 @@
-# axios
+# @skywise-inc/axios
 
 axios wrapper
