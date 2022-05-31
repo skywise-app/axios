@@ -1,6 +1,6 @@
 {
     "name": "axios",
-    "version": "0.1.0",
+    "version": "0.0.3",
     "description": "axios wrapper",
     "main": "dist/index.js",
     "types": "dest/index.d.ts",
