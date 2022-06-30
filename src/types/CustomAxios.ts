@@ -7,6 +7,10 @@ export interface CustomAxios {
     ): Promise<AxiosResponse<T> | CustomAxiosResponse<T>>;
 
     post<T = any, R = AxiosResponse<T>, D = any>(url: string, data?: D, config?: AxiosRequestConfig<D>): Promise<R>;
+    postForm<T = any, R = AxiosResponse<T>, D = any>(url: string, data?: D, config?: AxiosRequestConfig<D>): Promise<R>;
+
+    put<T = any, R = AxiosResponse<T>, D = any>(url: string, data?: D, config?: AxiosRequestConfig<D>): Promise<R>;
+    putForm<T = any, R = AxiosResponse<T>, D = any>(url: string, data?: D, config?: AxiosRequestConfig<D>): Promise<R>;
 }
 
 export interface CustomAxiosRequestConfig<T> extends AxiosRequestConfig<T> {

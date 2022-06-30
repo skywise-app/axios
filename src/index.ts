@@ -27,6 +27,18 @@ const customAxios: CustomAxios = {
     post(url, payload, config) {
         return defaultAxios.post(url, payload, config);
     },
+
+    postForm(url, payload, config) {
+        return defaultAxios.postForm(url, payload, config);
+    },
+
+    put(url, payload, config) {
+        return defaultAxios.put(url, payload, config);
+    },
+
+    putForm(url, payload, config) {
+        return defaultAxios.putForm(url, payload, config);
+    },
 };
 
 export default customAxios;
