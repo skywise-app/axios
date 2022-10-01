@@ -1,6 +1,6 @@
 {
-    "name": "@skywise-inc/axios",
-    "version": "0.0.7",
+    "name": "@skywise-app/axios",
+    "version": "0.1.0",
     "description": "axios wrapper",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -10,7 +10,8 @@
     "scripts": {
         "test": "jest --coverage",
         "lint": "eslint . --fix",
-        "build": "tsc"
+        "build": "tsc",
+        "packlist": "npx npm-packlist"
     },
     "dependencies": {
         "axios": "^0.27.2"
